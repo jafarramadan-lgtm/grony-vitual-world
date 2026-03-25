@@ -9,7 +9,7 @@ interface dataprops {
 }
 
 export default function BasicRadar({ dataSelect }: dataprops) {
-  if (dataSelect === "") return <div></div>;
+  if (dataSelect == "") return <div></div>;
   else {
     const dataParse =
       typeof dataSelect === "string" ? JSON.parse(dataSelect) : dataSelect;
