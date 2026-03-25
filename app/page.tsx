@@ -14,7 +14,7 @@ const [data, setdata] = useState<
     }[]|[]
   >([]);
 const [img,setimg]=useState("")
-const [dataSelect,setDataSelect]=useState(null)
+const [dataSelect,setDataSelect]=useState("")
 
   return (
     <div className="flex min-h-screen items-center justify-center  font-sans bg-gray-100">
